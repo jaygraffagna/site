@@ -1,0 +1,41 @@
+
+body{    
+    background-color:#383838;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+}
+header{
+    background-color:#4b4b4b;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row; 
+}
+
+.header-button{
+    background-color:#4b4b4b;
+    padding: 2px;
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 0px;
+    
+}
+
+
+.header-text{
+    background-color:#4b4b4b;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    margin-left: 10 px;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;	
+    font-weight: 500; 
+    color:white;
+    padding: 10px;
+}
