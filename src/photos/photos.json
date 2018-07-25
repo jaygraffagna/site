@@ -1,0 +1,23 @@
+[
+    {
+        "ID": 1,
+        "Photo": "water_drop.jpg",
+        "Camera": "Sony A6000",
+        "Location": "Bettendorf, IA USA",
+        "Editor": "darktable"
+    },
+    {
+        "ID": 2,
+        "Photo": "river_path_reflection.jpg",
+        "Camera": "Sony A6000",
+        "Location": "Davenport, IA USA",
+        "Editor": "darktable"
+    },
+    {
+        "ID": 3,
+        "Photo": "sunset_illinois.jpg",
+        "Camera": "Sony A6000",
+        "Location": "Amboy, Illinois USA",
+        "Editor": "darktable"
+    }
+]
