@@ -17,6 +17,96 @@ header{
 }
 .header-icon{
     padding-top: 7px;
+    width: 35px;
+    height: 35px;
+}
+
+.header-text{
+    background-color:#4b4b4b;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+h1 {
+    font-family: 'Shadows Into Light', cursive;	
+    font-weight: 500; 
+    font-size: 40pt;
+    color:white;
+    padding: 10px;
+}
+
+/*---Body---*/
+body{    
+    background-color:#383838;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+.img-container{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.img-content{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    height: 60%;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+/*---Footer---*/
+footer{
+    background-color:#4b4b4b;
+    padding: 0px;
+    margin-top: 25px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row; 
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text{
+    font-family: 'Shadows Into Light', cursive;	
+    font-weight: 500; 
+    font-size: 40pt;
+    color:white;
+    padding: 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+
+header{
+    background-color:#4b4b4b;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 0px;
+    display: flex;
+    flex-direction: row; 
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.header-content{
+    display: flex;
+    margin: 0 auto;
+}
+.header-icon{
+    padding-top: 7px;
+    width: 35px;
+    height: 35px;
 }
 
 .header-text{
@@ -41,13 +131,18 @@ body{
     border-radius: 0px;
 }
 
+.img-container{
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
 .img-content{
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
     height: 60%;
-    margin-top: 60px;
+    margin-top: 50px;
     border-style: solid;
     border-width: 2px;
     border-color: white;
@@ -74,4 +169,5 @@ footer{
     padding: 10px;
     display: flex;
     margin: 0 auto;
+}
 }
