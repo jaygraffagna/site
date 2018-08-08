@@ -17,8 +17,8 @@ header{
 }
 .header-icon{
     padding-top: 7px;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
 }
 
 .header-text{
@@ -26,12 +26,12 @@ header{
     padding: 0px;
     margin: 0px;
     border-radius: 0px;
+    font-size: 26pt;
 }
 
 h1 {
     font-family: 'Shadows Into Light', cursive;	
-    font-weight: 500; 
-    font-size: 40pt;
+    font-weight: 500;
     color:white;
     padding: 10px;
 }
@@ -45,17 +45,17 @@ body{
 }
 
 .img-container{
-    margin-top: 75px;
-    margin-bottom: 75px;
+    margin-top: 65px;
+    margin-bottom: 50px;
 }
 
 .img-content{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
-    height: 60%;
-    margin-top: 50px;
+    width: 90%;
+    height: 90%;
+    margin-top: 10px;
     border-style: solid;
     border-width: 2px;
     border-color: white;
@@ -69,7 +69,7 @@ footer{
     border-radius: 0px;
     display: flex;
     flex-direction: row; 
-    height: 50px;
+    height: 30px;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -78,96 +78,98 @@ footer{
 .footer-text{
     font-family: 'Shadows Into Light', cursive;	
     font-weight: 500; 
-    font-size: 40pt;
+    font-size: 12pt;
     color:white;
-    padding: 10px;
+    padding: 2px;
     display: flex;
     margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
 
-header{
-    background-color:#4b4b4b;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-    display: flex;
-    flex-direction: row; 
-    top: 0;
-    position: fixed;
-    width: 100%;
-}
+    header{
+        background-color:#4b4b4b;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row; 
+        top: 0;
+        position: fixed;
+        width: 100%;
+    }
 
-.header-content{
-    display: flex;
-    margin: 0 auto;
-}
-.header-icon{
-    padding-top: 7px;
-    width: 35px;
-    height: 35px;
-}
+    .header-content{
+        display: flex;
+        margin: 0 auto;
+    }
+    .header-icon{
+        padding-top: 7px;
+        width: 35px;
+        height: 35px;
+    }
 
-.header-text{
-    background-color:#4b4b4b;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-}
+    .header-text{
+        background-color:#4b4b4b;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+        font-size: 24pt;
+    }
 
-h1 {
-    font-family: 'Shadows Into Light', cursive;	
-    font-weight: 500; 
-    color:white;
-    padding: 10px;
-}
+    h1 {
+        font-family: 'Shadows Into Light', cursive;	
+        font-weight: 500; 
+        color:white;
+        padding: 10px;
+    }
 
-/*---Body---*/
-body{    
-    background-color:#383838;
-    padding: 0px;
-    margin: 0px;
-    border-radius: 0px;
-}
+    /*---Body---*/
+    body{    
+        background-color:#383838;
+        padding: 0px;
+        margin: 0px;
+        border-radius: 0px;
+    }
 
-.img-container{
-    margin-top: 75px;
-    margin-bottom: 75px;
-}
+    .img-container{
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
 
-.img-content{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-    height: 60%;
-    margin-top: 50px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-}
+    .img-content{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        height: 40%;
+        margin-top: 10px;
+        border-style: solid;
+        border-width: 2px;
+        border-color: white;
+    }
 
-/*---Footer---*/
-footer{
-    background-color:#4b4b4b;
-    padding: 0px;
-    margin-top: 25px;
-    border-radius: 0px;
-    display: flex;
-    flex-direction: row; 
-    height: 50px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-}
+    /*---Footer---*/
+    footer{
+        background-color:#4b4b4b;
+        padding: 0px;
+        margin-top: 25px;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row; 
+        height: 40px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
 
-.footer-text{
-    font-family: 'Shadows Into Light', cursive;	
-    font-weight: 500; 
-    color:white;
-    padding: 10px;
-    display: flex;
-    margin: 0 auto;
-}
+    .footer-text{
+        font-family: 'Shadows Into Light', cursive;	
+        font-weight: 500; 
+        font-size: 12pt;
+        color:white;
+        padding: 10px;
+        display: flex;
+        margin: 0 auto;
+    }
 }

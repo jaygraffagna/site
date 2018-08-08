@@ -19,5 +19,19 @@
         "Camera": "Sony A6000",
         "Location": "Amboy, Illinois USA",
         "Editor": "darktable"
+    },
+    {
+        "ID": 4,
+        "Photo": "tree_centennial.jpg",
+        "Camera": "Sony A6000",
+        "Location": "Davenport, Iowa USA",
+        "Editor": "darktable"
+    },
+    {
+        "ID": 5,
+        "Photo": "74_bridge.jpg",
+        "Camera": "Sony A6000",
+        "Location": "Bettendorf, Iowa USA",
+        "Editor": "darktable"
     }
 ]
