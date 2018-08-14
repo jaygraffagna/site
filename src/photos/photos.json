@@ -18,7 +18,7 @@
         "Photo": "sunset_illinois.jpg",
         "Camera": "Sony A6000",
         "Location": "Amboy, Illinois USA",
-        "Editor": "darktable"
+        "Editor": "VSCO"
     },
     {
         "ID": 4,
@@ -32,6 +32,6 @@
         "Photo": "74_bridge.jpg",
         "Camera": "Sony A6000",
         "Location": "Bettendorf, Iowa USA",
-        "Editor": "darktable"
+        "Editor": "VSCO"
     }
 ]
