@@ -1,16 +1,49 @@
-var photos;
+var ImgContainer = document.getElementById('img-container');
+var Photos = [];
+var Index = 0;
 
-const Init = function(){
-    photos = JSON.parse('[ { "ID": 1, "Photo": "water_drop.jpg", "Camera": "Sony A6000", "Location": "Bettendorf, IA USA", "Editor": "darktable" }, { "ID": 2, "Photo": "river_path_reflection.jpg", "Camera": "Sony A6000", "Location": "Davenport, IA USA", "Editor": "darktable" }, { "ID": 3, "Photo": "sunset_illinois.jpg", "Camera": "Sony A6000", "Location": "Amboy, Illinois USA", "Editor": "darktable" }, { "ID": 4, "Photo": "tree_centennial.jpg", "Camera": "Sony A6000", "Location": "Davenport, Iowa USA", "Editor": "darktable" }, { "ID": 5, "Photo": "74_bridge.jpg", "Camera": "Sony A6000", "Location": "Bettendorf, Iowa USA", "Editor": "darktable" } ]');
-
-    var container = document.getElementById('img-container');
-
-    photos.forEach(photo => {
+function Load(){
+    for(let i = Photos.length - 1; i > Index - 5; i--){
+        let photo = Photos[i];
         let path = './photos/' + photo.Photo;
         var img = document.createElement('img');
         img.classList.add('img-content');
         img.setAttribute('src', path);
-        container.appendChild(img);
-    });
+        ImgContainer.appendChild(img);
+    }
+    Index -= 5;
+}
+
+ function Scrolled(e){
+    if (ImgContainer.scrollTop == ImgContainer.scrollHeight) {
+        Load();
+    }
+}
+
+//debug
+var input = document.getElementById('input-file');
+var header = document.getElementById('header');
+function Debug(){
+    header.addEventListener('click', function(e){ input.click(); }, false);
+    input.addEventListener('change', 
+    function(e){
+        var file = e.target.files[0];
+        if (!file) {
+          return;
+        }
+        var reader = new FileReader();
+        reader.onload = function(e) {
+          Photos = JSON.parse(e.target.result);
+          Index = Photos.length - 1;
+          Load();
+        };
+        reader.readAsText(file);
+    }, false);
+};
+//
+
+const Init = function(){ 
+    Debug();
+    window.onscroll = Scrolled;
 }();
 
