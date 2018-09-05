@@ -2,6 +2,14 @@ var ImgContainer = document.getElementById('img-container');
 var Photos = [];
 var Index = 0;
 
+const Loading = function(){
+    var span = document.getElementById("loading");
+    if ( span.innerHTML.length > 3 ) 
+        span.innerHTML = "";
+    else 
+        span.innerHTML += ".";
+}
+
 function Load(){
     for(let i = Photos.length - 1; i > Index - 5; i--){
         let photo = Photos[i];
@@ -15,7 +23,7 @@ function Load(){
 }
 
  function Scrolled(e){
-    if (ImgContainer.scrollTop == ImgContainer.scrollHeight) {
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
         Load();
     }
 }
@@ -44,6 +52,7 @@ function Debug(){
 
 const Init = function(){ 
     Debug();
-    window.onscroll = Scrolled;
+    setInterval(Loading, 500);
+    window.onscroll = Scrolled
 }();
 
