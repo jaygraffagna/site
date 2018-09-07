@@ -1,17 +1,15 @@
 var ImgContainer = document.getElementById('img-container');
+var Loading = document.getElementById('loading');
 var Photos = [];
 var Index = 0;
 
-const Loading = function(){
-    var span = document.getElementById("loading");
-    if ( span.innerHTML.length > 3 ) 
-        span.innerHTML = "";
-    else 
-        span.innerHTML += ".";
-}
-
 function Load(){
-    for(let i = Photos.length - 1; i > Index - 5; i--){
+    for(let i = Index; i > Index - 5; i--){
+        if(i < 0){
+            Loading.style.display = "none";
+            Index = 0;
+            return;
+        }
         let photo = Photos[i];
         let path = './photos/' + photo.Photo;
         var img = document.createElement('img');
@@ -20,11 +18,22 @@ function Load(){
         ImgContainer.appendChild(img);
     }
     Index -= 5;
+    Loading.style.display = "none";
 }
 
- function Scrolled(e){
+function Scrolled(e){
     if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        Load();
+        if(Index > 0){
+            if(Loading.style.display != "flex"){
+                Loading.style.display = "flex";
+                //Load();
+                setTimeout(Load, 2000);
+            }
+        }
+        else{
+            Loading.style.display = "none";
+            ImgContainer.classList.add('img-container');
+        }
     }
 }
 
@@ -52,7 +61,6 @@ function Debug(){
 
 const Init = function(){ 
     Debug();
-    setInterval(Loading, 500);
     window.onscroll = Scrolled
 }();
 
