@@ -57,10 +57,22 @@ function Debug(){
         reader.readAsText(file);
     }, false);
 };
-//
+
+function Info(){
+    var req = new XMLHttpRequest();
+    req.onreadystatechange = function(){
+        if(req.readyState == 4 && req.status == 200){
+            Photos = JSON.parse(req.responseText);
+            Load();
+        }
+    };
+    req.open('GET', "/photos/photos.json", true);
+    req.setRequestHeader('Access-Control-Allow-Origin', 'https://romantic-colden-d012cf.netlify.com/photos/photos.json');
+    req.send(null);
+}
 
 const Init = function(){ 
-    Debug();
+    Info();
     window.onscroll = Scrolled
 }();
 
