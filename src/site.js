@@ -26,7 +26,7 @@ function Scrolled(e){
         if(Index > 0){
             if(Loading.style.display != "flex"){
                 Loading.style.display = "flex";
-                Load();
+                setTimeout(Load, 1000);
             }
         }
         else{
