@@ -33,5 +33,19 @@
         "Camera": "Sony A6000",
         "Location": "Bettendorf, Iowa USA",
         "Editor": "VSCO"
-    }    
+    },
+    {
+        "ID": 6,
+        "Photo": "chicago_bridges_walls.jpg",
+        "Camera": "Sony A6000",
+        "Location": "Bucktown Chicago, IL USA",
+        "Editor": "datktable"
+    } ,
+    {
+        "ID": 7,
+        "Photo": "wicker_alley.jpg",
+        "Camera": "Sony A6000",
+        "Location": "Wicker Park Chicago, IL USA",
+        "Editor": "datktable"
+    }  
 ]
