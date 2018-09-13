@@ -15,6 +15,7 @@ function Load(){
         var img = document.createElement('img');
         img.classList.add('img-content');
         img.setAttribute('src', path);
+        img.setAttribute('alt', photo.Desc);        
         ImgContainer.appendChild(img);
     }
     Index -= 5;

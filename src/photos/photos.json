@@ -2,20 +2,23 @@
     {
         "ID": 1,
         "Photo": "water_drop.jpg",
+        "Desc": "Water Drop",
         "Camera": "Sony A6000",
-        "Location": "Bettendorf, IA USA",
+        "Location": "Bettendorf, Iowa USA",
         "Editor": "darktable"
     },
     {
         "ID": 2,
         "Photo": "river_path_reflection.jpg",
+        "Desc": "River Path Reflection",
         "Camera": "Sony A6000",
-        "Location": "Davenport, IA USA",
+        "Location": "Davenport, Iowa USA",
         "Editor": "darktable"
     },
     {
         "ID": 3,
         "Photo": "sunset_illinois.jpg",
+        "Desc": "Sunset Illinois",
         "Camera": "Sony A6000",
         "Location": "Amboy, Illinois USA",
         "Editor": "VSCO"
@@ -23,6 +26,7 @@
     {
         "ID": 4,
         "Photo": "tree_centennial.jpg",
+        "Desc": "Tree Centennial",
         "Camera": "Sony A6000",
         "Location": "Davenport, Iowa USA",
         "Editor": "darktable"
@@ -30,6 +34,7 @@
     {
         "ID": 5,
         "Photo": "74_bridge.jpg",
+        "Desc": "74 Bridge",
         "Camera": "Sony A6000",
         "Location": "Bettendorf, Iowa USA",
         "Editor": "VSCO"
@@ -37,15 +42,33 @@
     {
         "ID": 6,
         "Photo": "chicago_bridges_walls.jpg",
+        "Desc": "Chicago Bridges Walls",
         "Camera": "Sony A6000",
-        "Location": "Bucktown Chicago, IL USA",
+        "Location": "Bucktown Chicago, Illinois USA",
         "Editor": "datktable"
-    } ,
+    },
     {
         "ID": 7,
         "Photo": "wicker_alley.jpg",
+        "Desc": "Wicker Alley",
         "Camera": "Sony A6000",
-        "Location": "Wicker Park Chicago, IL USA",
+        "Location": "Wicker Park Chicago, Illinois USA",
         "Editor": "datktable"
-    }  
+    },
+    {
+        "ID": 8,
+        "Photo": "mississippi_river_path.jpg",
+        "Desc": "Mississippi River Path",
+        "Camera": "iPhone SE",
+        "Location": "Davenport, Iowa USA",
+        "Editor": "VSCO"
+    },
+    {
+        "ID": 9,
+        "Photo": "london_eye.jpg",
+        "Desc": "London Eye",
+        "Camera": "Sony A6000",
+        "Location": "London, UK",
+        "Editor": "VSCO"
+    }   
 ]
