@@ -70,5 +70,21 @@
         "Camera": "Sony A6000",
         "Location": "London, UK",
         "Editor": "VSCO"
+    }  ,
+    {
+        "ID": 10,
+        "Photo": "chicago_night_skyline.jpg",
+        "Desc": "Night Chicago Skyline",
+        "Camera": "iPhone SE",
+        "Location": "South Loop Chicago, Illinois USA",
+        "Editor": "VSCO"
+    },
+    {
+        "ID": 9,
+        "Photo": "davenport_downtown_sunset.jpg",
+        "Desc": "Downtown Davenport Sunset",
+        "Camera": "iPhone SE",
+        "Location": "Davenport, Iowa USA",
+        "Editor": "VSCO"
     }   
 ]
