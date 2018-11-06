@@ -86,5 +86,29 @@
         "Camera": "iPhone SE",
         "Location": "Davenport, Iowa USA",
         "Editor": "VSCO"
-    }   
+    },
+    {
+        "ID": 12,
+        "Photo": "mt_lemmon_fog.jpg",
+        "Desc": "Mt. Lemmon Fog",
+        "Camera": "iPhone SE",
+        "Location": "Tucson, AZ USA",
+        "Editor": "VSCO"
+    },
+    {
+        "ID": 13,
+        "Photo": "davenport_rain_puddle.jpg",
+        "Desc": "Davenport Rain Puddle",
+        "Camera": "iPhone SE",
+        "Location": "Davenport, Iowa USA",
+        "Editor": "VSCO"
+    },
+    {
+        "ID": 14,
+        "Photo": "rainbow_sunset.jpg",
+        "Desc": "Rainbow Sunset",
+        "Camera": "iPhone SE",
+        "Location": "Amboy, Illinois USA",
+        "Editor": "VSCO"
+    } 
 ]
