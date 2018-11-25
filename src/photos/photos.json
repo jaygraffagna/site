@@ -118,5 +118,21 @@
         "Camera": "iPhone SE",
         "Location": "Camden Town, London UK",
         "Editor": "darktable"
-    } 
+    },
+    {
+        "ID": 16,
+        "Photo": "eiffel_tower.jpg",
+        "Desc": "Eiffel Tower",
+        "Camera": "Sony A6000",
+        "Location": "Paris, France",
+        "Editor": "darktable"
+    } ,
+    {
+        "ID": 17,
+        "Photo": "plaza_mayor.jpg",
+        "Desc": "Plaza Mayor",
+        "Camera": "Sony A6000",
+        "Location": "Salamanca, Spain",
+        "Editor": "darktable"
+    }  
 ]
