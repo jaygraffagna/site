@@ -1,13 +1,5 @@
 [
     {
-        "ID": 1,
-        "Photo": "water_drop.jpg",
-        "Desc": "Water Drop",
-        "Camera": "Sony A6000",
-        "Location": "Bettendorf, Iowa USA",
-        "Editor": "darktable"
-    },
-    {
         "ID": 2,
         "Photo": "river_path_reflection.jpg",
         "Desc": "River Path Reflection",
@@ -30,14 +22,6 @@
         "Camera": "Sony A6000",
         "Location": "Davenport, Iowa USA",
         "Editor": "darktable"
-    },
-    {
-        "ID": 5,
-        "Photo": "74_bridge.jpg",
-        "Desc": "74 Bridge",
-        "Camera": "Sony A6000",
-        "Location": "Bettendorf, Iowa USA",
-        "Editor": "VSCO"
     },
     {
         "ID": 6,
@@ -134,5 +118,21 @@
         "Camera": "Sony A6000",
         "Location": "Salamanca, Spain",
         "Editor": "darktable"
-    }  
+    },
+    {
+        "ID": 18,
+        "Photo": "radio_flyer_pilot_bass.jpg",
+        "Desc": "Radio Flyer Pilots Bass",
+        "Camera": "Sony A6000",
+        "Location": "Davenport, Iowa USA",
+        "Editor": "VSCO"
+    } ,
+    {
+        "ID": 19,
+        "Photo": "radio_flyer_pilot_lead.jpg",
+        "Desc": "Radio Flyer Pilots Lead",
+        "Camera": "Sony A6000",
+        "Location": "Davenport, Iowa USA",
+        "Editor": "VSCO"
+    }   
 ]
