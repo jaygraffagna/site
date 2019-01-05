@@ -73,6 +73,14 @@
     },
     {
         "ID": 12,
+        "Photo": "frank_turner.jpg",
+        "Desc": "Frank Turner",
+        "Camera": "iPhone SE",
+        "Location": "Milwaukee, WI USA",
+        "Editor": "VSCO"
+    },
+    {
+        "ID": 13,
         "Photo": "mt_lemmon_fog.jpg",
         "Desc": "Mt. Lemmon Fog",
         "Camera": "iPhone SE",
@@ -80,7 +88,7 @@
         "Editor": "VSCO"
     },
     {
-        "ID": 13,
+        "ID": 14,
         "Photo": "davenport_rain_puddle.jpg",
         "Desc": "Davenport Rain Puddle",
         "Camera": "iPhone SE",
@@ -97,6 +105,14 @@
     },
     {
         "ID": 15,
+        "Photo": "spanish_guitarist.jpg",
+        "Desc": "Spanish Guitarist",
+        "Camera": "Sony A60000",
+        "Location": "Malaga, Spain",
+        "Editor": "Adobe Lightroom"
+    },
+    {
+        "ID": 16,
         "Photo": "camden_lock.jpg",
         "Desc": "Camden Lock",
         "Camera": "iPhone SE",
@@ -104,7 +120,7 @@
         "Editor": "darktable"
     },
     {
-        "ID": 16,
+        "ID": 18,
         "Photo": "eiffel_tower.jpg",
         "Desc": "Eiffel Tower",
         "Camera": "Sony A6000",
@@ -112,7 +128,7 @@
         "Editor": "darktable"
     } ,
     {
-        "ID": 17,
+        "ID": 18,
         "Photo": "plaza_mayor.jpg",
         "Desc": "Plaza Mayor",
         "Camera": "Sony A6000",
@@ -120,7 +136,7 @@
         "Editor": "darktable"
     },
     {
-        "ID": 18,
+        "ID": 20,
         "Photo": "radio_flyer_pilots_bass.jpg",
         "Desc": "Radio Flyer Pilots Bass",
         "Camera": "Sony A6000",
@@ -128,7 +144,7 @@
         "Editor": "VSCO"
     } ,
     {
-        "ID": 19,
+        "ID": 21,
         "Photo": "radio_flyer_pilots_lead.jpg",
         "Desc": "Radio Flyer Pilots Lead",
         "Camera": "Sony A6000",
